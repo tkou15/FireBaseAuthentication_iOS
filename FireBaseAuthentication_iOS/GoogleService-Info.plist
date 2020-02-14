@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>459543968917-sjjrjsfbgfn84p35d5pg02715231en27.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.459543968917-sjjrjsfbgfn84p35d5pg02715231en27</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDwrUCe8n94vpgYs2u2rTotl1LsxaN2kdQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>459543968917</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kouichi.FireBaseAuthentication-iOS</string>
+	<key>PROJECT_ID</key>
+	<string>testauthentication-ios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>testauthentication-ios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:459543968917:ios:eeec7ed08b318d11bdaf9c</string>
+	<key>DATABASE_URL</key>
+	<string>https://testauthentication-ios.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B305702423F4FB10000D3259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B305702323F4FB10000D3259 /* AppDelegate.swift */; };
+		B305702623F4FB10000D3259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B305702523F4FB10000D3259 /* SceneDelegate.swift */; };
+		B305702823F4FB10000D3259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B305702723F4FB10000D3259 /* ViewController.swift */; };
+		B305702B23F4FB10000D3259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B305702923F4FB10000D3259 /* Main.storyboard */; };
+		B305702D23F4FB11000D3259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B305702C23F4FB11000D3259 /* Assets.xcassets */; };
+		B305703023F4FB11000D3259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B305702E23F4FB11000D3259 /* LaunchScreen.storyboard */; };
+		B305703823F4FC8B000D3259 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B305703723F4FC8B000D3259 /* GoogleService-Info.plist */; };
+		B34C0E8423F6E154001E7DFC /* MailAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C0E8323F6E154001E7DFC /* MailAuthViewController.swift */; };
+		B34C0E8623F6E571001E7DFC /* MailAuth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34C0E8523F6E571001E7DFC /* MailAuth.storyboard */; };
+		B34C0E8823F6E80C001E7DFC /* MailAuthSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C0E8723F6E80C001E7DFC /* MailAuthSuccessViewController.swift */; };
+		B3D74E0323F6D158006838E5 /* MailLinkAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D74E0223F6D158006838E5 /* MailLinkAuthViewController.swift */; };
+		B3D74E0D23F6DB4C006838E5 /* Pods_FireBaseAuthentication_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92C707ABFC6A3B62E24ADEE /* Pods_FireBaseAuthentication_iOS.framework */; };
+		B3D74E0E23F6DB4C006838E5 /* Pods_FireBaseAuthentication_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D92C707ABFC6A3B62E24ADEE /* Pods_FireBaseAuthentication_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3D74E0F23F6DB4C006838E5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B3D74E0E23F6DB4C006838E5 /* Pods_FireBaseAuthentication_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1865E1AADA0120EA336E9725 /* Pods-FireBaseAuthentication_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseAuthentication_iOS.release.xcconfig"; path = "Target Support Files/Pods-FireBaseAuthentication_iOS/Pods-FireBaseAuthentication_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B305702023F4FB10000D3259 /* FireBaseAuthentication_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseAuthentication_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B305702323F4FB10000D3259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B305702523F4FB10000D3259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B305702723F4FB10000D3259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B305702A23F4FB10000D3259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B305702C23F4FB11000D3259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B305702F23F4FB11000D3259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B305703123F4FB11000D3259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B305703723F4FC8B000D3259 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B34C0E8323F6E154001E7DFC /* MailAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MailAuthViewController.swift; path = FireBaseAuthentication_iOS/MailAuth/MailAuthViewController.swift; sourceTree = SOURCE_ROOT; };
+		B34C0E8523F6E571001E7DFC /* MailAuth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MailAuth.storyboard; sourceTree = "<group>"; };
+		B34C0E8723F6E80C001E7DFC /* MailAuthSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailAuthSuccessViewController.swift; sourceTree = "<group>"; };
+		B3D74E0123F6AB5F006838E5 /* FireBaseAuthentication_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FireBaseAuthentication_iOS.entitlements; sourceTree = "<group>"; };
+		B3D74E0223F6D158006838E5 /* MailLinkAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailLinkAuthViewController.swift; sourceTree = "<group>"; };
+		B3D74E0423F6D86E006838E5 /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D74E0A23F6D8E7006838E5 /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92C707ABFC6A3B62E24ADEE /* Pods_FireBaseAuthentication_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseAuthentication_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BBF88D64A4F7CADFAD4AFC /* Pods-FireBaseAuthentication_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseAuthentication_iOS.debug.xcconfig"; path = "Target Support Files/Pods-FireBaseAuthentication_iOS/Pods-FireBaseAuthentication_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B305701D23F4FB10000D3259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D74E0D23F6DB4C006838E5 /* Pods_FireBaseAuthentication_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5910510CC09FCE247935F237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3D74E0A23F6D8E7006838E5 /* AppAuth.framework */,
+				B3D74E0423F6D86E006838E5 /* AppAuth.framework */,
+				D92C707ABFC6A3B62E24ADEE /* Pods_FireBaseAuthentication_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B305701723F4FB10000D3259 = {
+			isa = PBXGroup;
+			children = (
+				B305702223F4FB10000D3259 /* FireBaseAuthentication_iOS */,
+				B305702123F4FB10000D3259 /* Products */,
+				F2AF8EA80309F74A9A2A7C1F /* Pods */,
+				5910510CC09FCE247935F237 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B305702123F4FB10000D3259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B305702023F4FB10000D3259 /* FireBaseAuthentication_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B305702223F4FB10000D3259 /* FireBaseAuthentication_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B34C0E8A23F6EF95001E7DFC /* MailLink */,
+				B34C0E8923F6E90F001E7DFC /* MailAuth */,
+				B3D74E0123F6AB5F006838E5 /* FireBaseAuthentication_iOS.entitlements */,
+				B305702323F4FB10000D3259 /* AppDelegate.swift */,
+				B305702523F4FB10000D3259 /* SceneDelegate.swift */,
+				B305702723F4FB10000D3259 /* ViewController.swift */,
+				B305702923F4FB10000D3259 /* Main.storyboard */,
+				B305702C23F4FB11000D3259 /* Assets.xcassets */,
+				B305702E23F4FB11000D3259 /* LaunchScreen.storyboard */,
+				B305703123F4FB11000D3259 /* Info.plist */,
+				B305703723F4FC8B000D3259 /* GoogleService-Info.plist */,
+			);
+			path = FireBaseAuthentication_iOS;
+			sourceTree = "<group>";
+		};
+		B34C0E8923F6E90F001E7DFC /* MailAuth */ = {
+			isa = PBXGroup;
+			children = (
+				B34C0E8523F6E571001E7DFC /* MailAuth.storyboard */,
+				B34C0E8323F6E154001E7DFC /* MailAuthViewController.swift */,
+				B34C0E8723F6E80C001E7DFC /* MailAuthSuccessViewController.swift */,
+			);
+			path = MailAuth;
+			sourceTree = "<group>";
+		};
+		B34C0E8A23F6EF95001E7DFC /* MailLink */ = {
+			isa = PBXGroup;
+			children = (
+				B3D74E0223F6D158006838E5 /* MailLinkAuthViewController.swift */,
+			);
+			path = MailLink;
+			sourceTree = "<group>";
+		};
+		F2AF8EA80309F74A9A2A7C1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBF88D64A4F7CADFAD4AFC /* Pods-FireBaseAuthentication_iOS.debug.xcconfig */,
+				1865E1AADA0120EA336E9725 /* Pods-FireBaseAuthentication_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B305701F23F4FB10000D3259 /* FireBaseAuthentication_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B305703423F4FB11000D3259 /* Build configuration list for PBXNativeTarget "FireBaseAuthentication_iOS" */;
+			buildPhases = (
+				76CBBCD9A8A40CD2F393C59F /* [CP] Check Pods Manifest.lock */,
+				B305701C23F4FB10000D3259 /* Sources */,
+				B305701D23F4FB10000D3259 /* Frameworks */,
+				B305701E23F4FB10000D3259 /* Resources */,
+				BB0B9B210B9D30ECC4D3465A /* [CP] Embed Pods Frameworks */,
+				EC262CDA5544653A768CDEEE /* [CP] Copy Pods Resources */,
+				B3D74E0F23F6DB4C006838E5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireBaseAuthentication_iOS;
+			productName = FireBaseAuthentication_iOS;
+			productReference = B305702023F4FB10000D3259 /* FireBaseAuthentication_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B305701823F4FB10000D3259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "takahashi kouich\b\bi";
+				TargetAttributes = {
+					B305701F23F4FB10000D3259 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B305701B23F4FB10000D3259 /* Build configuration list for PBXProject "FireBaseAuthentication_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B305701723F4FB10000D3259;
+			productRefGroup = B305702123F4FB10000D3259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B305701F23F4FB10000D3259 /* FireBaseAuthentication_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B305701E23F4FB10000D3259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B305703023F4FB11000D3259 /* LaunchScreen.storyboard in Resources */,
+				B305703823F4FC8B000D3259 /* GoogleService-Info.plist in Resources */,
+				B305702D23F4FB11000D3259 /* Assets.xcassets in Resources */,
+				B34C0E8623F6E571001E7DFC /* MailAuth.storyboard in Resources */,
+				B305702B23F4FB10000D3259 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76CBBCD9A8A40CD2F393C59F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireBaseAuthentication_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB0B9B210B9D30ECC4D3465A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireBaseAuthentication_iOS/Pods-FireBaseAuthentication_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireBaseAuthentication_iOS/Pods-FireBaseAuthentication_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FireBaseAuthentication_iOS/Pods-FireBaseAuthentication_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC262CDA5544653A768CDEEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireBaseAuthentication_iOS/Pods-FireBaseAuthentication_iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireBaseAuthentication_iOS/Pods-FireBaseAuthentication_iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FireBaseAuthentication_iOS/Pods-FireBaseAuthentication_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B305701C23F4FB10000D3259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B305702823F4FB10000D3259 /* ViewController.swift in Sources */,
+				B34C0E8823F6E80C001E7DFC /* MailAuthSuccessViewController.swift in Sources */,
+				B305702423F4FB10000D3259 /* AppDelegate.swift in Sources */,
+				B34C0E8423F6E154001E7DFC /* MailAuthViewController.swift in Sources */,
+				B3D74E0323F6D158006838E5 /* MailLinkAuthViewController.swift in Sources */,
+				B305702623F4FB10000D3259 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B305702923F4FB10000D3259 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B305702A23F4FB10000D3259 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B305702E23F4FB11000D3259 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B305702F23F4FB11000D3259 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B305703223F4FB11000D3259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B305703323F4FB11000D3259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B305703523F4FB11000D3259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BBF88D64A4F7CADFAD4AFC /* Pods-FireBaseAuthentication_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FireBaseAuthentication_iOS/FireBaseAuthentication_iOS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RBWQUR592;
+				INFOPLIST_FILE = FireBaseAuthentication_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kouichi.FireBaseAuthentication-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B305703623F4FB11000D3259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1865E1AADA0120EA336E9725 /* Pods-FireBaseAuthentication_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FireBaseAuthentication_iOS/FireBaseAuthentication_iOS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RBWQUR592;
+				INFOPLIST_FILE = FireBaseAuthentication_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kouichi.FireBaseAuthentication-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B305701B23F4FB10000D3259 /* Build configuration list for PBXProject "FireBaseAuthentication_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B305703223F4FB11000D3259 /* Debug */,
+				B305703323F4FB11000D3259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B305703423F4FB11000D3259 /* Build configuration list for PBXNativeTarget "FireBaseAuthentication_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B305703523F4FB11000D3259 /* Debug */,
+				B305703623F4FB11000D3259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B305701823F4FB10000D3259 /* Project object */;
+}
